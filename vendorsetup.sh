@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo slim_mione_plus-userdebug
+add_lunch_combo losp_mione_plus-userdebug
 

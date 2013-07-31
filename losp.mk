@@ -1,5 +1,5 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/losp/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := mione_plus
@@ -8,8 +8,8 @@ TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
+$(call inherit-product, vendor/losp/config/common_full_phone.mk)
+$(call inherit-product, vendor/losp/config/common_ledflash.mk)
 # old audio files
 include frameworks/base/data/sounds/AllAudio.mk
 
@@ -31,7 +31,7 @@ $(call inherit-product, device/xiaomi/mione_plus/device_mione_plus.mk)
 
 # Setup device specific product configuration.
 PRODUCT_DEVICE := mione_plus
-PRODUCT_NAME := slim_mione_plus
+PRODUCT_NAME := losp_mione_plus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI-ONE Plus
 PRODUCT_MANUFACTURER := Xiaomi
