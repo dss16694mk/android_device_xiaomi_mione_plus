@@ -71,11 +71,12 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Recovery
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-# BOARD_CUSTOM_GRAPHICS := ../../../device/xiaomi/mione_plus/recovery/graphics.c
-# BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
-BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
-TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 TARGET_RECOVERY_INITRC := device/xiaomi/mione_plus/recovery/init.rc
+RECOVERY_HAS_DUALSYSTEM_PARTITIONS := true
+RECOVERY_USE_PIXEL_FORMAT_BGR565 := true
+PRODUCT_COPY_FILES += \
+    device/xiaomi/mione_plus/recovery.fstab:recovery/root/etc/recovery.fstab \
+    device/xiaomi/mione_plus/recovery/device.conf:recovery/root/res/device.conf
 
 #lcd
 PRODUCT_PROPERTY_OVERRIDES += \
