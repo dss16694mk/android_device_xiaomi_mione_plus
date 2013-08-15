@@ -85,6 +85,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # flag for xiaomi
 BOARD_USE_XIAOMI_MIONE_HARDWARE := true
-
-# Alarm config
-BOARD_HAS_RTC_ALARM := true
