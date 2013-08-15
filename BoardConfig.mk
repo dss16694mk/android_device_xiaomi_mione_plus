@@ -70,14 +70,8 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Recovery
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_INITRC := device/xiaomi/mione_plus/recovery/init.rc
-RECOVERY_HAS_DUALSYSTEM_PARTITIONS := true
-RECOVERY_USE_PIXEL_FORMAT_BGR565 := true
 TARGET_RECOVERY_FSTAB = device/xiaomi/mione_plus/ramdisk/fstab.mione
 RECOVERY_FSTAB_VERSION := 2
-PRODUCT_COPY_FILES += \
-    device/xiaomi/mione_plus/recovery.fstab:recovery/root/etc/recovery.fstab \
-    device/xiaomi/mione_plus/recovery/device.conf:recovery/root/res/device.conf
 
 #lcd
 PRODUCT_PROPERTY_OVERRIDES += \
