@@ -76,7 +76,7 @@ RECOVERY_USE_PIXEL_FORMAT_BGR565 := true
 TARGET_RECOVERY_FSTAB = device/xiaomi/mione_plus/ramdisk/fstab.mione
 RECOVERY_FSTAB_VERSION := 2
 PRODUCT_COPY_FILES += \
-    device/xiaomi/mione_plus/recovery.fstab:recovery/root/etc/recovery.fstab \
+    device/xiaomi/mione_plus/recovery.fstab:recovery/root/etc/miui.fstab \
     device/xiaomi/mione_plus/recovery/device.conf:recovery/root/res/device.conf
 
 #lcd
