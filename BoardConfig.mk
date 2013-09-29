@@ -77,6 +77,7 @@ TARGET_RECOVERY_FSTAB = device/xiaomi/mione_plus/ramdisk/fstab.mione
 RECOVERY_FSTAB_VERSION := 2
 PRODUCT_COPY_FILES += \
     device/xiaomi/mione_plus/recovery.fstab:recovery/root/etc/miui.fstab \
+    device/xiaomi/mione_plus/recovery/etc/fstab:recovery/root/etc/fstab \
     device/xiaomi/mione_plus/recovery/device.conf:recovery/root/res/device.conf
 
 #lcd
