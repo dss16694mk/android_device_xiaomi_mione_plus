@@ -47,7 +47,7 @@ on boot
 service ueventd /sbin/ueventd
     critical
 
-service recovery /sbin/recovery.sh
+service recovery /sbin/recovery
 
 service adbd /sbin/adbd recovery
     disabled
