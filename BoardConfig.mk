@@ -70,6 +70,7 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Recovery
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_SELECT_BUTTON := true
+TARGET_PREBUILT_RECOVERY_KERNEL := device/xiaomi/mione_plus/recovery/kernel
 TARGET_RECOVERY_INITRC := device/xiaomi/mione_plus/recovery/init.rc
 RECOVERY_HAS_DUALSYSTEM_PARTITIONS := true
 RECOVERY_USE_PIXEL_FORMAT_BGR565 := true
