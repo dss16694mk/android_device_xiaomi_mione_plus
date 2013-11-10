@@ -159,7 +159,7 @@
 
     <!-- Is the battery LED intrusive?
          Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!--<bool name="config_intrusiveBatteryLed">true</bool>-->
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -174,10 +174,10 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">7</integer>
+    <!--<integer name="config_deviceHardwareKeys">7</integer>-->
 
     <!-- Boolean to configure if the device has two system partitions
          This is only for Xiaomi devices -->
-     <bool name="config_dualsystem">true</bool>
+     <!--<bool name="config_dualsystem">true</bool>-->
 
 </resources>
