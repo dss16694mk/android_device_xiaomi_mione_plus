@@ -87,3 +87,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # flag for xiaomi
 BOARD_USE_XIAOMI_MIONE_HARDWARE := true
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
