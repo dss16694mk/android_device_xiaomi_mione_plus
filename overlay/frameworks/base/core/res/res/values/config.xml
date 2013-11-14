@@ -179,5 +179,7 @@
     <!-- Boolean to configure if the device has two system partitions
          This is only for Xiaomi devices -->
      <bool name="config_dualsystem">true</bool>
+    <!-- Device supports LED flashlight -->
+     <bool name="config_enableTorch">true</bool>
 
 </resources>
